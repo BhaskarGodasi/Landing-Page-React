@@ -1,0 +1,72 @@
+/* Tracks.css */
+
+.container {
+    max-width: 800px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    overflow: auto; /* Enable scrolling within fixed container */
+    max-height: calc(100vh - 100px); /* Adjust max-height to fit within viewport */
+  }
+  
+  .scrollbar {
+    padding-right: 20px; /* Create space for scrollbar (if necessary) */
+  }
+  
+  .content-left {
+    max-width: 600px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .text-big {
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold; /* Optionally make text bold */
+    margin-bottom: 20px; /* Adjust spacing */
+  }
+  
+  .text-primary {
+    color: #007bff; /* Primary text color */
+  }
+  
+  .text-secondary {
+    color: #6c757d; /* Secondary text color */
+  }
+  
+  .text-paragraph {
+    font-size: 1rem; /* Adjust font size */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin-bottom: 20px; /* Adjust spacing */
+  }
+  
+  .text-trademark {
+    font-size: 0.8rem; /* Adjust font size */
+    vertical-align: super; /* Align trademark to top */
+    margin-left: 5px; /* Adjust spacing */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .fixed {
+      max-width: 90%; /* Adjust width for smaller screens */
+      padding: 10px;
+    }
+    
+    .text-big {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    
+    .text-paragraph {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
